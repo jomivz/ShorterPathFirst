@@ -4,12 +4,13 @@ Install
 ===================
 
 1. The langage code used is C++. Appropriate compiler MUST be installed on your environment. 
-2. The utily "make" MUST be installed on your environment. 
+2. The utily `make` MUST be installed on your environment. 
 3. Move to the directory "src".
 4. Execute the following commands :
 
- [~ src]$ make clean
- [~ src]$ make 
+`[~ src]$ make clean`
+ 
+`[~ src]$ make`
 
 First command cleans object and binary files.
 
@@ -19,7 +20,7 @@ Execution
 1. Move to the directory "bin".
 2. Execute the program "main" as per below:
 
- [~ bin]$ ./main
+`[~ bin]$ ./main`
 
 User Guide
 ===================
@@ -36,11 +37,13 @@ When executed, the program launchs an interactive menu:
 
 Graph representation files can be generated manually.
 Each line is an edge as per below : 
- TOP1 TOP2 WEIGHT
-The weight is the cost going through this edge.
+
+`TOP1 TOP2 WEIGHT`
+
+The `WEIGHT` is the cost going through this edge.
 
 The display of a graph is based on lists of adjacences.
-The first represents TOPS. The second column represents its SUCCESSORS.
+The first represents `TOPS`. The second column represents its `SUCCESSORS`.
 
 Acknowledgements
 ===================
